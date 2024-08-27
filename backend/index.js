@@ -16,4 +16,5 @@ app.use('/api/notes', require('./routes/notes'));
 
 app.listen(port, () => {
     console.log(`Server running on Port: http://localhost:${port}`);
+    
 });
